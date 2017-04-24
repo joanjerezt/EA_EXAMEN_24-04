@@ -1,0 +1,27 @@
+{
+  "name": "examen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "postinstall": "bower install",
+    "update-deps": "npm update",
+    "postupdate-deps": "bower update",
+    "prestart": "npm install"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "mongoose": "^4.8.3",
+    "morgan": "",
+    "mongoose-unique-validator": "^1.0.2"
+  },
+  "devDependencies": {
+    "bower": "^1.7.7",
+    "nodemon": "^1.11.0"
+  }
+}
